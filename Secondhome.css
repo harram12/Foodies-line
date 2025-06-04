@@ -1,0 +1,22 @@
+#wel{
+    font-weight: lighter;
+    text-align: center;
+    text-transform: capitalize;
+}
+#pre{color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+#res{
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: capitalize;
+}
+#place{
+    color: orange;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: capitalize;
+}

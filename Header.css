@@ -1,0 +1,86 @@
+#navbar {
+  background-color: black;
+}
+.Foodies {
+  color: orangered !important;
+  font-size: xx-large !important;
+  font-weight: bolder !important;
+  font-style: italic !important;
+  text-transform: capitalize !important;
+  text-decoration: none !important;
+}
+
+.page {
+  color: snow !important;
+  margin-left: 30px !important ;
+  text-transform: capitalize !important ;
+  text-decoration: none !important ;
+  font-size: x-large !important ;
+  font-weight: bolder !important ;
+  font-style: italic !important ;
+}
+
+#form {
+  margin-right: 12px;
+  float: inline-end;
+}
+#navbarScrollingDropdown {
+  color: snow;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: italic;
+  margin-left:30px ;
+}
+.item {
+  color: snow;
+  background-color: black;
+}
+.mainpage {
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  color: orangered;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: black;
+}
+.mainpage:hover {
+  transition: 2s;
+}
+
+.form {
+  background-color: black;
+  margin-left: 25px;
+}
+
+.mainform {
+  color: black;
+}
+.form {
+  background-color: black !important;
+  border: 2px solid orangered !important;
+  border-radius: 5px; /* thoda round look ke liye */
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.form:hover {
+  transition: 3s;
+  border: 2px solid whitesmoke !important;
+}
+.form .sign {
+  color: white;
+  text-decoration: none;
+}
+.form:hover .sign {
+  transition: 3s;
+  color: orangered;
+}
+#signinbutton,#signupbutton{
+  color: whitesmoke!important;
+}
+#signinbutton:hover,#signupbutton:hover{
+  color: orangered!important;
+}

@@ -1,0 +1,19 @@
+#breakfast{
+    text-align: center;margin-top: 30px;
+    color: whitesmoke;font-size: xx-large;
+    font-weight: bold;text-transform: capitalize;font-style: oblique;
+}
+#family{
+    color: orangered;
+}
+#breakfastpage{
+    text-align: center;margin-top: 30px;
+    color: whitesmoke;font-size:x-large;
+    font-weight: bold;text-transform: capitalize;font-style: italic;
+}
+#menubreakfast{
+    text-align: center;margin-top: 20px;
+    color: white;font-size:xx-large;
+    font-weight: bolder;text-transform: capitalize;font-style: oblique;
+
+}

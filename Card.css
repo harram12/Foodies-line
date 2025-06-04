@@ -1,0 +1,23 @@
+#col{
+    margin:9px;
+    border-radius:22px ;
+    background-color:azure;
+}
+#images{width: 90%;height:150pt ;padding: 15px;border-radius:20% ;
+
+
+}
+#name{
+    color:orangered;font-size: xx-large;font-weight:bolder;
+    font-style: normal;text-decoration: underline;
+    text-transform: capitalize;
+}
+#link{padding: 6px;border-color: black;letter-spacing: normal;font-size: larger;
+  background-color: black;color: orangered;text-align: center;
+}
+#link:hover{transition: 2s;
+    background-color: orangered;color: black;
+}
+#nameofthing{font-weight: bolder;font-style: italic;
+color: rgb(249, 164, 7); font-size: xx-large;text-transform: capitalize;
+}

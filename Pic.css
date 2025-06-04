@@ -1,0 +1,80 @@
+/* #straw{
+    padding: 15px;
+display: flex;border-radius: 13px;
+margin-left: 12px;margin-right: 10px;
+}
+.im{margin: 18px; border-radius: 18px;
+    width: 30%;height: 20%;;
+}
+#hea{
+text-align: center;font-weight: bold;font-style: italic;
+color: whitesmoke;font-size: xx-large;text-transform: capitalize;
+}
+#span{font-weight: bolder;font-style: italic;
+        color: orangered;text-transform: capitalize;
+}
+#creamy{
+    width: 260px; height: 190px;
+} */
+ #straw {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap; /* Items wrap on smaller screens */
+    border-radius: 13px;
+    margin-left: 12px;
+    margin-right: 10px;
+    justify-content: center; /* Center content on smaller screens */
+}
+
+.im {
+    margin: 18px;
+    border-radius: 18px;
+    width: 30%;
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Prevent overflow */
+}
+
+#hea {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: whitesmoke;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+
+#span {
+    font-weight: bolder;
+    font-style: italic;
+    color: orangered;
+    text-transform: capitalize;
+}
+
+#creamy {
+    width: 260px;
+    height: 190px;
+    max-width: 100%; /* Make image scale on smaller screens */
+    height: auto;    /* Maintain aspect ratio */
+}
+
+/* Responsive behavior for screens smaller than 768px */
+@media (max-width: 768px) {
+    .im {
+        width: 80%; /* Bigger on small screens */
+        margin: 10px auto;
+    }
+
+    #creamy {
+        width: 90%;
+        height: auto;
+    }
+
+    #hea {
+        font-size: x-large;
+    }
+
+    #straw {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+}
